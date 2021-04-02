@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+  background-color: #999999;
+  margin: 15px;
+}
+.overall-container {
+  display: flex;
+}
+
+
+
+#side-bar {
+  color: Black;
+  width: 30%;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.project-title {
+  color: White;
+}
+
+#main-bar {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-left: 15px;
+  text-align: center;
+}
+.graph-container {
+  display: flex;
+  width: 20%;
+}
+}
+
+.my-form {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px lightgray;
+  margin: 15px;
+  margin-right: 10px;
+}
+
+.form-group {
+  padding: 15px;
+
+}
+
+.my-form label {
+  display:block;
+}
+
+.my-form input {
+  padding: 8px;
+  width: 100%;
+}
+
+.location-summary {
+  display: flex;
+  color: black;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.location-tab {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 2px lightgrey;
+  padding: 15px;
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.left-graph {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-graph {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 500px;
+  height: 1000px;
+}
+.left-top-container {
+  height: 500px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.left-bot-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+
+}
+
+.right-graph-container {
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.right-bot-graph-container {
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.box-plot-container {
+  width: 40%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
